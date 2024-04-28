@@ -1,8 +1,8 @@
 {
-  "name": "@expressots/resend-provider",
+  "name": "@expressots/your-provider",
   "version": "0.0.1",
-  "description": "Expressots - Email using Resend Provider (@expressots/resend-provider)",
-  "author": "Richard Zampieri",
+  "description": "Expressots - Your provider description (@expressots/your-provider)",
+  "author": "Author Name",
   "main": "./lib/cjs/index.js",
   "types": "./lib/cjs/types/index.d.ts",
   "exports": {
