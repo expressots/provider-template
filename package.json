@@ -1,8 +1,8 @@
 {
-  "name": "@expressots/package-name",
+  "name": "@expressots/resend-provider",
   "version": "0.0.1",
-  "description": "Expressots - modern, fast, lightweight nodejs web framework (@package-name)",
-  "author": "",
+  "description": "Expressots - Email using Resend Provider (@expressots/resend-provider)",
+  "author": "Richard Zampieri",
   "main": "./lib/cjs/index.js",
   "types": "./lib/cjs/types/index.d.ts",
   "exports": {
@@ -67,13 +67,14 @@
     "lint:fix": "eslint \"src/**/*.ts\" --fix"
   },
   "dependencies": {
+    "@expressots/core": "latest",
+    "inversify": "6.0.2",
     "reflect-metadata": "0.2.2"
   },
   "devDependencies": {
     "@codecov/vite-plugin": "0.0.1-beta.6",
     "@commitlint/cli": "18.0.0",
     "@commitlint/config-conventional": "17.7.0",
-    "@expressots/core": "latest",
     "@release-it/conventional-changelog": "7.0.1",
     "@types/node": "20.4.9",
     "@typescript-eslint/eslint-plugin": "6.6.0",
